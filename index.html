@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<title></title>
+</head>
+
+
+<body>
+<div class="contenner01" align="center">
+<form action="process.php" method="post">
+<ul class="form-style-1">
+	<li>
+        <label>Amount<span class="required">*</span></label>
+        <input type="text" name="money" class="field-long" width="50%" />
+    </li>
+    <li>
+        <label>Select currency</label>
+        <select name="coin" class="field-select">
+        <option value="1">euro(EUR)</option>
+        <option value="2">US Dollar(USD)</option>
+        <option value="3">yen(JPY)</option>
+        </select>
+    </li>
+    <li>
+        <input type="submit" name="submit" value="calculate"/>
+    </li>
+</ul>
+</form>
+</div>
+</body>
+</html>
+<!-- <div>
+<form action="process.php" method="post">
+	<table width="500" border="0" align="center">
+		<tr>
+			<td colspan="2">
+				<div class="form-style-6" align="center"><h1>CALCALATE</h1></div>
+			</td>
+		</tr>
+		<tr>
+			<td width="150"><div align="right">จำนวนเงิน:</div></td>
+			<td width="212"><!<label>Amount<span class="required" type="text" name="money" size="20" maxlength="100">*</span></label> -->
+			<!-- <label>Amount<span class="required">*</span></label>
+        	<input type="text" name="money" class="field-long"/>
+			</td>
+		</tr>
+		<tr>
+			<td width="150"><div align="right">เลือกสกุลเงิน:</div></td>
+			<td width="212">
+			<select name="coin">
+				<option value="1">ยูโร (EUR)</option>
+				<option value="2">ดอลลาร์สหรัฐอเมริกา (USD)</option>
+				<option value="3">เงินเยน (JPY)</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><div align="center"><input type="submit" name="submit" value="คำนวณ" /></div></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="font-size: 14px;color: #F00;" align="center"></td>
+		</tr>
+	</table>
+	<div align="center"></div>
+</div> --> 
